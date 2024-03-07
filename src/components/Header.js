@@ -1,11 +1,15 @@
 import React from 'react';
-
+import { Navbar,NavItem,Logo } from '../style/stylesHeader';
 function Header() {
   return (
     <header>
-      <h1>Emmanuel Garzón Cabarcas</h1>
-      <p>Software Developer</p>
-      
+      <Navbar>
+        <Logo></Logo>
+        <NavItem href="#">About</NavItem>
+        <NavItem href="#">Projects</NavItem>
+        <NavItem href="#">Skills</NavItem>
+        <NavItem href="#">Contact</NavItem>
+      </Navbar>
     </header>
   );
 }
