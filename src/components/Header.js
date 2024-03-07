@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <Navbar>
-        <Logo></Logo>
+        <Logo>Emmanuel</Logo>
         <NavItem href="#">About</NavItem>
         <NavItem href="#">Projects</NavItem>
         <NavItem href="#">Skills</NavItem>

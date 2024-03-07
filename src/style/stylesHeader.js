@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const Navbar = styled.nav`
-  background-color: #333;
+  background-color: #3498DB;
   padding: 10px;
   display: flex;
   justify-content: space-between;
